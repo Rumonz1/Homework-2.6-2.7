@@ -1,10 +1,8 @@
 public class Main {
     public static void main(String[] args) {
-        var firstBoxerWeight = 78.2;
-        var secondBoxerWeight = 82.7;
-        var differenceBoxersWeight = secondBoxerWeight - firstBoxerWeight;
-        System.out.println("Разница веса боксёров составила     " + differenceBoxersWeight + " кг!");
-        differenceBoxersWeight = secondBoxerWeight % firstBoxerWeight;
-        System.out.println("Разница веса боксёров составила     " + differenceBoxersWeight + " кг!");
+      var totalTime = 640;
+      var onePersonUsedTime = 8;
+      var totalPersons = totalTime / onePersonUsedTime;
+        System.out.println("Всего работников в компании " + totalPersons + " человек");
     }
 }
